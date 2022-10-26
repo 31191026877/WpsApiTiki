@@ -1,0 +1,87 @@
+.btn,
+.btn-icon {
+  transition: box-shadow 0.5s ease;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  border: 0;
+  letter-spacing: 1px;
+  color: #fff;
+}
+.btn:active,
+.btn-icon:active {
+  transition: transform 80ms ease-in;
+  transform: scale(0.85);
+}
+.btn:focus,
+.btn-icon:focus {
+  outline: none;
+}
+.btn:hover,
+.btn-icon:hover {
+  background-color: #000;
+  color: #fff;
+  box-shadow: 7px 7px 15px rgba(55, 84, 170, 0.15), -7px -7px 20px #ffffff, inset 0px 0px 4px rgba(255, 255, 255, 0.2), inset 7px 7px 15px rgba(55, 84, 170, 0), inset -7px -7px 20px rgba(255, 255, 255, 0), 0px 0px 4px rgba(255, 255, 255, 0);
+  transition: all 0.3s;
+}
+.btn {
+  padding: 7px 10px;
+  margin-left: 5px;
+}
+.btn-icon {
+  padding: 7px 20px;
+  margin-right: 10px;
+  background-color: #fff;
+  color: #000;
+  border-bottom: 0 solid rgba(0, 0, 0, 0.4);
+  display: inline-block;
+  text-decoration: none;
+}
+.btn-icon i {
+  padding-right: 10px;
+}
+.color-green {
+  color: var(--green) !important;
+}
+.color-white {
+  color: #fff !important;
+}
+.color-red {
+  color: var(--red) !important;
+}
+.color-blue {
+  color: var(--blue) !important;
+}
+.btn-white,
+.btn-default {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid rgba(0, 0, 0, 0);
+}
+.btn-red {
+  border-color: var(--red);
+  background-color: var(--red);
+}
+.btn-red:hover {
+  border-color: var(--red);
+  background-color: var(--red);
+}
+.btn-blue {
+  border-color: var(--blue);
+  background-color: var(--blue);
+}
+.btn-blue:hover {
+  border-color: var(--blue);
+  background-color: var(--blue);
+}
+.btn-green,
+.btn-success {
+  border-color: var(--green);
+  background-color: var(--green);
+}
+.btn-green:hover,
+.btn-success:hover {
+  border-color: var(--green);
+  background-color: var(--green);
+}
+/*# sourceMappingURL=button.css.map */

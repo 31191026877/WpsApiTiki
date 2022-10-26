@@ -1,0 +1,76 @@
+.timeline-container_new {
+    border: 1px solid #ebeef0;
+    border-radius: 3px;
+    background-color: #fff;
+    .timeline-container_new--position {
+        position: relative;
+        margin-left: 30px;
+        word-break: break-all;
+        &:before {
+            content: "";
+            width: 12px;
+            height: 12px;
+            border: 3px solid #ebeef0;
+            border-radius: 50%;
+            position: absolute;
+            top: 17px;
+            left: -3.9px;
+            background-color: #ebeef0;
+            z-index: 2;
+        }
+        .timeline-new__date {
+            font-weight: 500;
+            display: inline-block;
+            font-size: 14px;
+            color: #6c798f;
+            margin-left: 30px;
+        }
+        .timeline-event-contentnew__icon {
+            position: absolute;
+            top: 21px;
+            left: -11px;
+            z-index: 2;
+            .icon {
+                position: relative;
+                display: inline-block;
+                vertical-align: middle;
+                background-color: #21469b;
+                color: #fff;
+                width: 30px;
+                height: 30px;
+                line-height: 30px;
+                text-align: center;
+                border-radius: 50%;
+                &.icon-add {
+                    background-color: #08cc74;
+                }
+                &.icon-edit {
+                    background-color: #62a8ea;
+                }
+                &.icon-delete {
+                    background-color: #ca2c2c;
+                }
+            }
+        }
+        .timeline-new__infomation {
+            margin-left: 30px;
+            .timeline-new__infomation__name {
+                font-weight: 600;
+                font-size: 14px;
+                color: #212121;
+            }
+            .timeline-new__infomation__time {
+                color: #6c798f;
+                font-size: 14px;
+                font-weight: 400;
+            }
+            .timeline-new__infomation__message {
+                margin-top: 5px;
+            }
+        }
+    }
+    .timeline-item-new--border--padding {
+        border-left: 3px solid #ebeef0;
+        padding: 15px 15px 15px 0;
+    }
+}

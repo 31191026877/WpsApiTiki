@@ -1,0 +1,317 @@
+#bootstrap-confirm-dialog .modal-header {
+  padding: 10px;
+}
+#bootstrap-confirm-dialog .modal-header #bootstrap-confirm-dialog-heading {
+  margin: 0;
+}
+#bootstrap-confirm-dialog .modal-footer {
+  padding: 10px;
+}
+#gallery_object_box .object-gallery-action {
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+#gallery_object_box .object-gallery-action .pull-right {
+  padding-top: 5px;
+}
+#gallery_object_box .object-gallery-item {
+  position: relative;
+  padding: 0;
+  border: 4px solid #fff;
+}
+#gallery_object_box .object-gallery-item .img {
+  border: 1px solid #ccc;
+  cursor: pointer;
+  text-align: center;
+  overflow: hidden;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+}
+#gallery_object_box .object-gallery-item .img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#gallery_object_box .object-gallery-item .img .play-video {
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  line-height: 104px;
+}
+#gallery_object_box .object-gallery-item .img .play-video img {
+  height: 30px;
+  width: 30px;
+}
+#gallery_object_box .object-gallery-item .title {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+#gallery_object_box .object-gallery-item .title h3 {
+  margin: 0;
+  font-size: 18px;
+  text-align: center;
+  background-color: rgba(43, 54, 67, 0.72);
+  color: #fff;
+  padding: 5px 0;
+}
+#gallery_object_box .object-gallery-item .radio {
+  position: absolute;
+  top: -3px;
+  right: -3px;
+  margin: 0;
+  z-index: 99;
+}
+#gallery_object_box .object-gallery-item.active {
+  border: 4px solid #1c7cf8;
+}
+.gallery {
+  margin-top: 10px;
+}
+.gallery .gallery-list {
+  padding-left: 50px;
+  padding-top: 50px;
+}
+.gallery .gallery-list .btn-icon {
+  margin-bottom: 20px;
+  padding: 20px;
+}
+.gallery .gallery-list .root-list {
+  list-style: none;
+}
+.gallery .gallery-list .root-list li {
+  padding-bottom: 10px;
+  position: relative;
+}
+.gallery .gallery-list .root-list li a {
+  font-size: 15px;
+  display: block;
+  color: #000;
+}
+.gallery .gallery-list .root-list li a label {
+  position: relative;
+  color: #757575;
+  font-size: 25px;
+  margin-right: 20px;
+}
+.gallery .gallery-list .root-list li a label span.gl-number {
+  position: absolute;
+  z-index: 9;
+  right: -10px;
+  bottom: -5px;
+  background-color: #1c9ee9;
+  color: #fff;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 10px;
+}
+.gallery .gallery-list .root-list li a.active,
+.gallery .gallery-list .root-list li a:hover {
+  border: 0;
+  color: #1c9ee9;
+}
+.gallery .gallery-list .root-list li a.active label,
+.gallery .gallery-list .root-list li a:hover label {
+  color: #1c9ee9;
+}
+.gallery .gallery-list .root-list li a.active label span.gl-number,
+.gallery .gallery-list .root-list li a:hover label span.gl-number {
+  background-color: #e53935;
+}
+.gallery .gallery-list .root-list li .js_gallery_btn__delete {
+  position: absolute;
+  right: -50px;
+  top: 0;
+  padding: 5px 10px;
+  margin: 0;
+  opacity: 0;
+  transition: all 0.5s;
+  font-size: 15px;
+}
+.gallery .gallery-list .root-list li .js_gallery_btn__delete i {
+  padding: 0;
+}
+.gallery .gallery-list .root-list li:hover .js_gallery_btn__delete {
+  right: 0;
+  opacity: 1;
+}
+.gallery .gallery-item__action {
+  background: #fff;
+  padding: 10px 13px;
+  border-bottom: 1px solid #f3f3f3;
+  box-sizing: border-box;
+  height: 60px;
+  margin-bottom: 10px;
+}
+.gallery .gallery-item__action button {
+  border: 0;
+  border-radius: 3px;
+  padding: 8px;
+  text-align: center;
+  color: #757575;
+  display: inline-block;
+  width: 40px;
+  font-size: 16px;
+  background-color: #fff;
+}
+.gallery .gallery-item__action button:hover {
+  background-color: #ddd;
+}
+.gallery .gallery-item__action .disabled-item {
+  cursor: not-allowed !important;
+  opacity: 0.5;
+}
+.gallery .gallery-item {
+  background: #fff;
+  box-shadow: -3px 2px 6px rgba(0, 0, 0, 0.06);
+  height: 800px;
+  margin-left: 0;
+  border-right: 1px solid #f3f3f3;
+}
+.gallery .gallery-item .gallery-box {
+  position: relative;
+  padding: 0;
+  border: 2px solid #fff;
+}
+.gallery .gallery-item .gallery-box .img {
+  cursor: pointer;
+  height: 104px;
+  text-align: center;
+  overflow: hidden;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.gallery .gallery-item .gallery-box .img img {
+  max-width: 100%;
+  max-height: 104px;
+}
+.gallery .gallery-item .gallery-box .img .play-video {
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  line-height: 104px;
+}
+.gallery .gallery-item .gallery-box .img .play-video img {
+  height: 30px;
+  width: 30px;
+}
+.gallery .gallery-item .gallery-box .title {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.gallery .gallery-item .gallery-box .title h3 {
+  margin: 0;
+  font-size: 18px;
+  text-align: center;
+  background-color: rgba(43, 54, 67, 0.72);
+  color: #fff;
+  padding: 5px 0;
+}
+.gallery .gallery-item .gallery-box .radio {
+  position: absolute;
+  top: -3px;
+  right: -3px;
+  margin: 0;
+  z-index: 99;
+}
+.gallery .gallery-item .gallery-box:hover {
+  border: 2px dashed #696969;
+}
+.gallery .gallery-item .gallery-box.active {
+  border: 2px dashed #1c7cf8;
+}
+.gallery .gallery-form {
+  background: #fcfcfc;
+  box-sizing: border-box;
+  height: 800px;
+  margin-left: 0;
+  position: relative;
+  box-shadow: 3px 2px 6px rgba(0, 0, 0, 0.06);
+}
+.gallery .gallery-form .img-thumbnail {
+  backface-visibility: hidden;
+  background-color: #212121;
+  background-position: 50%;
+  background-size: cover;
+  background-image: url('../../images/default-thumbnail.png');
+  height: 300px;
+  position: relative;
+  border-radius: 0;
+  border: 0;
+  margin-bottom: 20px;
+}
+.gallery .gallery-form .img-thumbnail img {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.gallery .gallery-form .img-thumbnail [class*="camera-container"] {
+  border-radius: 50%;
+  box-sizing: content-box;
+  box-shadow: 0 5px 12px rgba(0, 0, 0, 0.23);
+  bottom: -25px;
+  font-size: 24px;
+  height: 24px;
+  line-height: 18px;
+  margin: -20px 0 0 -20px;
+  overflow: hidden;
+  padding: 18px;
+  position: absolute;
+  text-align: center;
+  width: 24px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.gallery .gallery-form .img-thumbnail .camera-container {
+  background: #1da6f4;
+  color: #fff;
+  right: 25px;
+}
+.gallery .gallery-form .img-thumbnail .camera-container:hover {
+  background: #1c7cf8;
+}
+.gallery .gallery-form .img-thumbnail .camera-container .camera-container-link {
+  background: #f64231;
+  color: #fff;
+  right: 100px;
+}
+.gallery .gallery-form .img-thumbnail .camera-container .camera-container-link > .input-group {
+  display: none;
+}
+.gallery .gallery-form .img-thumbnail .camera-container .camera-container-link > .input-group input.form-control {
+  border: 0;
+}
+.gallery .gallery-form .img-thumbnail .camera-container .camera-container-link > .input-group .input-group-addon:last-child {
+  border: 0;
+}
+.gallery .gallery-form .img-thumbnail .camera-container .camera-container-link:hover {
+  background: #f82222;
+}
+.gallery .gallery-form .img-thumbnail .camera-container .camera-container-link.active {
+  width: 250px;
+  border-radius: 5px;
+  height: auto;
+}
+.gallery .gallery-form .img-thumbnail .camera-container .camera-container-link.active i.fal {
+  display: none;
+}
+.gallery .gallery-form .img-thumbnail .camera-container .camera-container-link.active > .input-group {
+  display: table;
+}
+/*# sourceMappingURL=gallery.css.map */

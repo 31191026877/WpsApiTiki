@@ -1,0 +1,1 @@
+<div class="description"><?php echo removeHtmlTags($val->excerpt); ?></div>

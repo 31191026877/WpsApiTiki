@@ -1,0 +1,223 @@
+.theme-menu .sidebar,
+.theme-menu .content {
+  float: left;
+  min-height: 100vh;
+  border-right: 1px solid #dedede;
+}
+.theme-menu .sidebar-menu-list {
+  width: 17%;
+}
+.theme-menu .sidebar-menu-list .list-menu ul {
+  padding: 15px 10px;
+}
+.theme-menu .sidebar-menu-list .list-menu ul li.group-menu a {
+  padding: 15px 10px;
+  background-color: var(--content-bg);
+  display: block;
+  position: relative;
+  font-size: 14px;
+  font-weight: bold;
+  color: #333333;
+  border-radius: 10px;
+  overflow: hidden;
+  opacity: 0.7;
+  transition: all 0.3s;
+}
+.theme-menu .sidebar-menu-list .list-menu ul li.group-menu button {
+  position: absolute;
+  top: 10px;
+  right: -55px;
+  transition: all 0.3s;
+}
+.theme-menu .sidebar-menu-list .list-menu ul li.group-menu:hover a {
+  opacity: 1;
+}
+.theme-menu .sidebar-menu-list .list-menu ul li.group-menu:hover button {
+  right: 10px;
+}
+.theme-menu .sidebar-menu-list .list-menu ul li.group-menu.active a {
+  background-color: #61A8EA;
+  color: #fff;
+  opacity: 1;
+}
+.theme-menu .sidebar-menu-list .list-menu ul li.group-menu.active a > i {
+  background-color: #61A8EA;
+  color: #fff;
+}
+.theme-menu .sidebar-menu-list .list-menu ul li.group-menu.add a {
+  border: 1px dashed #ccc;
+  margin-top: 10px;
+}
+.theme-menu .sidebar-object-list {
+  width: 23%;
+}
+.theme-menu .sidebar-object-list .menu-items {
+  padding: 15px 10px;
+}
+.theme-menu .sidebar-object-list .panel-group .panel {
+  border: 0;
+  border-radius: 0px 0px 10px 10px;
+  box-shadow: none;
+}
+.theme-menu .sidebar-object-list .panel-group .panel + .panel {
+  margin-top: 0;
+}
+.theme-menu .sidebar-object-list .panel-default > .panel-heading {
+  color: #333;
+  background-color: var(--content-bg);
+  border: 0;
+  padding: 0;
+  border-radius: 0;
+}
+.theme-menu .sidebar-object-list .panel-default > .panel-heading + .panel-collapse > .panel-body {
+  border: 0;
+  padding: 10px 0;
+}
+.theme-menu .sidebar-object-list .panel-title {
+  line-height: 26px;
+}
+.theme-menu .sidebar-object-list .panel-title > a {
+  display: block;
+  height: 52px;
+  padding: 10px;
+  border-radius: 10px 10px 0 0;
+}
+.theme-menu .sidebar-object-list .panel-title > a:not(.collapsed) {
+  background-color: #61A8EA;
+  color: #fff;
+}
+.theme-menu .sidebar-object-list .panel-title > a {
+  display: block;
+  height: 52px;
+  padding: 10px;
+  border-radius: 10px 10px 0 0;
+}
+.theme-menu .sidebar-object-list .panel-title > a:not(.collapsed) {
+  background-color: #61A8EA;
+  color: #fff;
+}
+.theme-menu .sidebar-menu-item-edit {
+  width: 25%;
+}
+.theme-menu .content {
+  width: 35%;
+  background-color: #fff;
+}
+.theme-menu .content .header-bar {
+  background-color: #214171;
+  color: #fff;
+  padding: 5px 10px;
+  height: var(--header-height);
+}
+.theme-menu .content .header-bar h2 {
+  font-size: 18px;
+  margin: 0;
+  line-height: 30px;
+}
+.theme-menu .content .content-menu-items {
+  padding: 15px 10px;
+  position: relative;
+}
+.theme-menu .content .content-menu-items .sort-menu #tree {
+  margin: 0;
+}
+.theme-menu .content .content-menu-items .sort-menu .panel {
+  border: 0 solid transparent;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+.theme-menu .content .content-menu-items .sort-menu h4.panel-title {
+  padding: 5px 0;
+}
+.theme-menu .content .content-menu-items .sort-menu .panel-title > a {
+  padding: 5px 10px;
+}
+.theme-menu .content .content-menu-items .sort-menu .panel-group .panel {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+.theme-menu .content .content-menu-items .sort-menu .panel-default > .panel-heading {
+  color: #333;
+  background-color: #dbdbdb;
+  border-color: #dbdbdb;
+  overflow: hidden;
+}
+.theme-menu .content .content-menu-items .sort-menu .mjs-nestedSortable-error {
+  background: #fbe3e4;
+  border-color: transparent;
+}
+.theme-menu .content .content-menu-items .sort-menu ol {
+  padding-left: 20px;
+  list-style-type: none;
+}
+.theme-menu .content .content-menu-items .sort-menu ol.sortable,
+.theme-menu .content .content-menu-items .sort-menu ol.sortable ol {
+  list-style-type: none;
+}
+.theme-menu .content .content-menu-items .sort-menu ol.sortable li div,
+.theme-menu .content .content-menu-items .sort-menu ol.sortable ol li div {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  cursor: move;
+  margin: 0;
+  padding: 3px;
+}
+.theme-menu .content .content-menu-items .sort-menu ol li.mjs-nestedSortable-collapsed.mjs-nestedSortable-hoverin div {
+  border-color: #999;
+}
+.theme-menu .content .content-menu-items .sort-menu ol li.mjs-nestedSortable-collapsed > ol {
+  display: none;
+}
+.theme-menu .content .content-menu-items .sort-menu > ol {
+  padding-left: 0;
+}
+.theme-menu .content .content-menu-items .sort-menu .disclose,
+.theme-menu .content .content-menu-items .sort-menu .expandEditor {
+  cursor: pointer;
+  width: 20px;
+  display: none;
+}
+.theme-menu .content .content-menu-items .sort-menu .sortable li.mjs-nestedSortable-branch > div > .disclose {
+  display: inline-block;
+}
+.theme-menu .content .content-menu-items .sort-menu .sortable span.ui-icon {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+.theme-menu .content .content-menu-items .sort-menu .itemTitle {
+  vertical-align: middle;
+  cursor: pointer;
+}
+.theme-menu .content .content-menu-items .sort-menu .deleteMenu {
+  float: right;
+  cursor: pointer;
+}
+.theme-menu .content .content-menu-items .sort-menu form,
+.theme-menu .content .content-menu-items .sort-menu ol,
+.theme-menu .content .content-menu-items .sort-menu p,
+.theme-menu .content .content-menu-items .sort-menu pre,
+.theme-menu .content .content-menu-items .sort-menu ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.theme-menu .content .content-menu-items .sort-menu dl {
+  margin: 0;
+}
+.theme-menu .content .content-menu-items .sort-menu dd {
+  margin: 0;
+  padding: 0 0 0 1.5em;
+}
+.theme-menu .content .content-menu-items .sort-menu code {
+  background: #e5e5e5;
+}
+.theme-menu .content .content-menu-items .sort-menu input {
+  vertical-align: text-bottom;
+}
+.theme-menu .content .content-menu-items .sort-menu .btn {
+  padding: 1px 5px;
+}
+/*# sourceMappingURL=menu.css.map */

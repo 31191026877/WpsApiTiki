@@ -1,0 +1,26 @@
+.widget_feedback_style_1 .box-content {
+    position: relative;margin: 20px auto;
+    width:800px;max-width: 100%;
+}
+.widget_feedback_style_1 .item .avatar {
+    text-align: center;
+}
+.widget_feedback_style_1 .item .avatar img {
+    width:100px; height: 100px; object-fit: cover;
+    border-radius: 50%;
+    display: inline-block;
+}
+.widget_feedback_style_1 .item .title {
+    text-align: center;
+}
+.widget_feedback_style_1 .item .title .feedback-name {
+    text-align: center; font-size: 18px; font-weight: bold;
+}
+.widget_feedback_style_1 .item .title .feedback-office {
+    font-size: 13px;
+}
+.widget_feedback_style_1 .item .title .feedback-content {
+    margin: 20px auto;
+    width:500px;
+    max-width: 100%;
+}

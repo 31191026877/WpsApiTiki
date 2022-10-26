@@ -1,0 +1,1 @@
+<?php include 'template-post-photo-category.php';?>

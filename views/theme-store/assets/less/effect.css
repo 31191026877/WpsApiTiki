@@ -1,0 +1,199 @@
+.effect-hover-guong {
+  position: relative;
+  overflow: hidden;
+}
+.effect-hover-guong:after {
+  position: absolute;
+  top: 0;
+  left: 300px;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, hsla(0, 0%, 100%, 0) 0, hsla(0, 0%, 100%, 0.3));
+  content: '';
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: transform 0.4s;
+  -webkit-transform: scale3d(2.2, 1.4, 1) rotate3d(0, 0, 1, 45deg) translate3d(0, -110%, 0);
+  transform: scale3d(2.2, 1.4, 1) rotate3d(0, 0, 1, 45deg) translate3d(0, -110%, 0);
+}
+.effect-hover-guong:hover:after {
+  webkit-transform: scale3d(2.2, 1.4, 1) rotate3d(0, 0, 1, 45deg) translate3d(0, 240%, 0);
+  transform: scale3d(2.2, 1.4, 1) rotate3d(0, 0, 1, 45deg) translate3d(0, 240%, 0);
+}
+.effect-hover-zoom img {
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.effect-hover-zoom:hover img {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.btn-effect {
+  position: relative;
+  display: inline-block;
+  width: 200px;
+  height: 50px;
+  line-height: 60px;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: transparent;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: 900;
+  font-size: 17px;
+  letter-spacing: 0.045em;
+}
+.btn-effect svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.btn-effect svg rect {
+  stroke-width: 4;
+  stroke-dasharray: 353, 0;
+  stroke-dashoffset: 0;
+  -webkit-transition: all 600ms ease;
+  transition: all 600ms ease;
+}
+.btn-effect span {
+  background: #ff8282;
+  background: -moz-linear-gradient(left, #ff8282 0%, #e178ed 100%);
+  background: -webkit-linear-gradient(left, #ff8282 0%, #e178ed 100%);
+  background: linear-gradient(to right, #ff8282 0%, #e178ed 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff8282', endColorstr='#e178ed', GradientType=1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.btn-effect:hover svg rect {
+  stroke-width: 4;
+  stroke-dasharray: 117,543;
+  stroke-dashoffset: 422;
+}
+.btn-effect-default {
+  position: relative;
+  display: inline-block;
+  font-weight: bold;
+  line-height: 30px;
+  cursor: pointer;
+  text-decoration: none;
+  padding: 5px 28px;
+  color: #fff;
+  border: 1px solid #000000;
+  border-radius: 5px 5px;
+  text-transform: uppercase;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 1px;
+  background-color: transparent;
+  -webkit-transition: color 0.45s cubic-bezier(0.785, 0.135, 0.15, 0.86), border 0.45s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  transition: color 0.45s cubic-bezier(0.785, 0.135, 0.15, 0.86), border 0.45s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  z-index: 1;
+  overflow: hidden;
+}
+.btn-effect-default:before {
+  position: absolute;
+  content: '';
+  display: block;
+  left: -2px;
+  top: 0;
+  right: -2px;
+  bottom: 0;
+  -webkit-transform: scale(1, 1);
+  transform: scale(1, 1);
+  -webkit-transform-origin: left center;
+  transform-origin: left center;
+  z-index: -1;
+  background-color: #000000;
+  -webkit-transition: -webkit-transform 0.45s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  transition: -webkit-transform 0.45s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  transition: transform 0.45s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+.btn-effect-default:hover:before {
+  -webkit-transform-origin: right center;
+  transform-origin: right center;
+  -webkit-transform: scale(0, 1);
+  transform: scale(0, 1);
+}
+.btn-effect-default.btn-danger,
+.btn-effect-default.btn-red {
+  border: 1px solid var(--btn-red);
+}
+.btn-effect-default.btn-danger:before,
+.btn-effect-default.btn-red:before {
+  background-color: var(--btn-red);
+}
+.btn-effect-default.btn-danger:hover,
+.btn-effect-default.btn-red:hover {
+  background-color: #fff;
+  color: var(--btn-red);
+}
+.btn-effect-default.btn-primary,
+.btn-effect-default.btn-blue,
+.btn-effect-default.btn-info {
+  border: 1px solid var(--btn-blue);
+}
+.btn-effect-default.btn-primary:before,
+.btn-effect-default.btn-blue:before,
+.btn-effect-default.btn-info:before {
+  background-color: var(--btn-blue);
+}
+.btn-effect-default.btn-primary:hover,
+.btn-effect-default.btn-blue:hover,
+.btn-effect-default.btn-info:hover {
+  background-color: #fff;
+  color: var(--btn-blue);
+}
+.btn-effect-default.btn-success,
+.btn-effect-default.btn-green {
+  border: 1px solid var(--btn-green);
+}
+.btn-effect-default.btn-success:before,
+.btn-effect-default.btn-green:before {
+  background-color: var(--btn-green);
+}
+.btn-effect-default.btn-success:hover,
+.btn-effect-default.btn-green:hover {
+  background-color: #fff;
+  color: var(--btn-green);
+}
+.btn-effect-default.btn-warning,
+.btn-effect-default.btn-orange,
+.btn-effect-default.btn-yellow {
+  border: 1px solid var(--btn-yellow);
+}
+.btn-effect-default.btn-warning:before,
+.btn-effect-default.btn-orange:before,
+.btn-effect-default.btn-yellow:before {
+  background-color: var(--btn-yellow);
+}
+.btn-effect-default.btn-warning:hover,
+.btn-effect-default.btn-orange:hover,
+.btn-effect-default.btn-yellow:hover {
+  background-color: #fff;
+  color: var(--btn-yellow);
+}
+.btn-effect-default.btn-default,
+.btn-effect-default.btn-white {
+  border: 1px solid #000;
+}
+.btn-effect-default.btn-default:before,
+.btn-effect-default.btn-white:before {
+  background-color: #fff;
+}
+.btn-effect-default.btn-default:hover,
+.btn-effect-default.btn-white:hover {
+  background-color: #fff;
+  color: #000;
+}
+.btn-effect-default.btn-theme {
+  border: 1px solid var(--btn-theme);
+}
+.btn-effect-default.btn-theme:before {
+  background-color: var(--btn-theme);
+}
+.btn-effect-default.btn-theme:hover {
+  background-color: #fff;
+  color: var(--btn-theme);
+}
+/*# sourceMappingURL=effect.css.map */

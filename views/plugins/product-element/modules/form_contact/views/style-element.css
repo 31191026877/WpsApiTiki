@@ -1,0 +1,36 @@
+.pre-form-contact {
+    overflow: hidden; margin-bottom: 10px;
+}
+.pre-form-contact__title {
+    font-weight: 700;
+    margin: 15px 0;
+}
+.pre-form-contact__box {
+    background-color: var(--pre-form-contact-bg_box);
+    padding: var(--pre-form-contact-padding);
+    width: 100%;
+    border-radius: 5px;
+}
+.pre-form-contact__box .form-group {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 0;
+}
+.pre-form-contact__box .form-group .input {
+    width: calc(100% - 60px);
+}
+.pre-form-contact__box .form-group .form-control {
+    background-color: var(--pre-form-contact-bg_input);
+    box-shadow: none; border-radius: 5px 0 0 5px; font-size: 15px;
+    border: 0; min-height: 41px;
+}
+.pre-form-contact__box .form-group button {
+    background-color: var(--pre-form-contact-bg_button);
+    color:var(--pre-form-contact-color_button);
+    width: 60px; border-radius: 0 5px 5px 0; font-size: 20px;
+    border: 0;
+}
+.pre-form-contact__box .form-group button:hover {
+    background-color: var(--pre-form-contact-bg_button_hover);
+    color:var(--pre-form-contact-color_button_hover);
+}

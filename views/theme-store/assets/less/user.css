@@ -1,0 +1,56 @@
+.user-signing {
+  color: #3f4254;
+}
+.user-signing .user-signing-content {
+  padding: 200px 20px;
+  margin: 0 0 100px 0;
+  overflow: hidden;
+  position: relative;
+  z-index: 2;
+  min-height: 100vh;
+}
+.user-signing .user-signing-content .signing-heading {
+  padding-bottom: 3.25rem !important;
+}
+.user-signing .user-signing-content .signing-heading h1 {
+  margin-top: 0;
+  color: #000;
+  font-weight: bold;
+  font-size: 26px;
+}
+.user-signing .user-signing-content .signing-content-left {
+  min-height: 400px;
+  background-size: cover;
+  background-position-x: center!important;
+  background-repeat: no-repeat !important;
+}
+.user-signing .user-signing-content .form-group {
+  margin-bottom: 30px;
+}
+.user-signing .user-signing-content .form-group label {
+  color: #000;
+  font-weight: bold!important;
+  margin-bottom: 0;
+  font-size: 15px;
+}
+.user-signing .user-signing-content .form-group .forgot-password {
+  float: right;
+  font-weight: bold!important;
+  color: var(--theme-color);
+}
+.user-signing .user-signing-content .form-control {
+  box-shadow: none;
+  height: auto;
+  padding: 1.5rem !important;
+  border-radius: 0.85rem !important;
+}
+.user-signing .user-signing-content .btn {
+  padding: 5px 20px;
+  margin-bottom: 10px;
+}
+@media (max-width: 600px) {
+  .user-signing .user-signing-content {
+    padding: 30px 20px;
+  }
+}
+/*# sourceMappingURL=user.css.map */

@@ -1,0 +1,49 @@
+.user-signing {
+    color: #3f4254;
+    .user-signing-content {
+        padding: 200px 20px;
+        margin:0 0 100px 0;
+        overflow: hidden;
+        position: relative;
+        z-index: 2;
+        min-height: 100vh;
+        .signing-heading {
+            padding-bottom: 3.25rem!important;
+            h1 {
+                margin-top: 0;
+                color: #000;
+                font-weight: bold; font-size: 26px;
+            }
+        }
+        .signing-content-left {
+            min-height:400px;
+            background-size: cover;
+            background-position-x: center!important;
+            background-repeat: no-repeat!important;
+        }
+        .form-group {
+            margin-bottom: 30px;
+            label {
+                color: #000;
+                font-weight: bold!important;
+                margin-bottom: 0; font-size: 15px;
+            }
+            .forgot-password {
+                float: right; font-weight: bold!important;
+                color: var(--theme-color);
+            }
+        }
+        .form-control {
+            box-shadow: none;
+            height: auto;
+            padding: 1.5rem!important;
+            border-radius: .85rem!important;
+        }
+        .btn {
+            padding:5px 20px; margin-bottom: 10px;
+        }
+        @media(max-width: 600px) {
+            padding: 30px 20px;
+        }
+    }
+}

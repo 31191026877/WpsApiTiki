@@ -1,0 +1,1 @@
+<h1 class="title-head"><?= $object->title;?></h1>

@@ -1,0 +1,88 @@
+.sidebar {
+    .sidebar-title {
+        .header {
+            text-align:left; font-size: 18px;
+            text-transform: uppercase;
+            a { color:#000; }
+        }
+    }
+    .filter-group { margin-bottom: 20px;}
+    .widget {
+        background-color: #fff;
+        clear: both;
+        margin-bottom: 15px;
+        padding:0!important;
+        box-shadow: 0px 15px 35px rgba(0,0,0, 0.1);
+        border-radius: 16px;
+        &::-webkit-scrollbar-track {
+            border-radius: 10px;
+            background-color: #fff;
+            width: 5px;
+        }
+        &::-webkit-scrollbar-thumb {
+            border-radius: 10px;
+            background-color: #e9edf5;
+            width: 5px;
+        }
+        &::-webkit-scrollbar {
+            width: 5px;
+            background-color: #fff;
+        }
+        .sidebar-title {
+            padding:15px 10px 5px 10px;
+            .header {
+                margin: 0;
+                font-size: 20px;
+                font-weight: 700;
+                color: #333;
+                text-transform: uppercase;
+                padding: 15px 0;
+                line-height: 20px;
+            }
+        }
+        .sidebar-content {
+            max-height: 420px;
+            padding:10px;
+            overflow: hidden;
+            &::-webkit-scrollbar-track {
+                border-radius: 10px;
+                background-color: #fff;
+                width: 5px;
+            }
+            &::-webkit-scrollbar-thumb {
+                border-radius: 10px;
+                background-color: #e9edf5;
+                width: 5px;
+            }
+            &::-webkit-scrollbar {
+                width: 5px;
+                background-color: #fff;
+            }
+            &:hover {
+                overflow-y: auto;
+            }
+        }
+        &.widget_not_border {
+            box-shadow: none;
+            padding:0;
+            background-color: transparent;
+            .sidebar-title {
+                padding: 0;
+            }
+            .sidebar-content {
+                overflow-y: initial!important;
+                padding:0; max-height: 1000px;
+            }
+            .item {
+                overflow: inherit;
+                border-radius: 10px;
+                .item_content {
+                    transition: all 0.25s cubic-bezier(.02,.01,.47,1);
+                    border: 1px solid #eaecee;
+                    padding: 15px!important;
+                    overflow: hidden;
+                }
+            }
+        }
+    }
+}

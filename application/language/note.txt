@@ -1,0 +1,14 @@
+﻿en : tiếng Anh
+vi : tiếng Việt
+fr : tiếng Pháp
+ar : Tiếng Ả-rập
+zh : Tiếng Trung Quốc
+hi : Tiếng Hindi (Ấn Độ)
+ru : Tiếng Nga
+pt : Tiếng Bồ Đào Nha
+de : Tiếng Đức
+ko : Tiếng Hàn
+ja : Tiếng Nhật
+
+
+

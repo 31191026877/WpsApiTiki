@@ -1,0 +1,104 @@
+.page-content {
+  margin-left: 230px;
+  width: auto;
+  position: relative;
+}
+.page-content .page-body {
+  min-height: 100vh;
+  background-color: var(--content-bg);
+  padding-top: calc(var(--header-height) + 10px);
+  overflow: hidden;
+  -webkit-transition: -webkit-transform 0.2s ease;
+  transition: transform 0.2s ease;
+}
+.page-content .action-bar {
+  position: fixed;
+  z-index: 99;
+  padding: 8px 10px;
+  top: 0;
+  left: 230px;
+  right: 0;
+  border-bottom: 1px solid #dddee0;
+  background-color: #fff;
+  overflow: hidden;
+  height: auto;
+}
+.page-content .ui-layout {
+  box-sizing: border-box;
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: -apple-system, BlinkMacSystemFont, San Francisco, Segoe UI, Roboto, Helvetica Neue, sans-serif;
+}
+.page-content .ui-layout .box {
+  border-radius: 3px;
+  overflow: hidden;
+  padding: 0;
+  margin-bottom: 10px;
+  -webkit-box-shadow: 0 0 0 1px rgba(63, 63, 68, 0.05), 0 1px 3px 0 rgba(63, 63, 68, 0.15);
+  box-shadow: 0 0 0 1px rgba(63, 63, 68, 0.05), 0 1px 3px 0 rgba(63, 63, 68, 0.15);
+  background-color: #fff;
+}
+.page-content .ui-layout .box .box-content {
+  overflow: hidden;
+  background-color: #fff;
+  padding: 10px 0;
+}
+.page-content .ui-layout .box .box-content.collapse {
+  padding: 10px 0;
+}
+.page-content .ui-layout .box .box-content .table-search {
+  padding-top: 0;
+  padding-bottom: 10px;
+}
+.page-content .ui-layout .box .box-content .paging {
+  padding: 0 10px;
+}
+.page-content .ui-layout .box .box-content .paging > li > a,
+.page-content .ui-layout .box .box-content .paging > li > span {
+  border-radius: 4px;
+  margin-right: 5px;
+  border-color: #428bca;
+}
+.page-content .ui-layout .ui-title-bar__group {
+  padding: 25px 0;
+}
+.page-content .ui-layout .ui-title-bar__group h1.ui-title-bar__title {
+  font-size: 28px;
+  line-height: 34px;
+  color: #212b35;
+  margin: 0;
+}
+.page-content .ui-layout .ui-title-bar__group .ui-title-bar__action {
+  margin-left: 0px;
+}
+.page-content .ui-layout .ui-title-bar__group .ui-title-bar__action a.btn,
+.page-content .ui-layout .ui-title-bar__group .ui-title-bar__action button.btn {
+  margin: 10px 10px 0 0;
+  color: #637381;
+  font-weight: 400;
+  background-color: #e3e7fb;
+  border-radius: 3px;
+}
+.page-content .ui-layout .ui-title-bar__group .ui-title-bar__action .active {
+  box-shadow: none;
+  font-weight: 400 !important;
+  background: linear-gradient(90deg, #263a53 0%, #03a9f4 100%);
+  color: #fff !important;
+  border: 0;
+}
+.page-content .ui-layout .tab-content .section-list ul li a {
+  display: block;
+  margin-right: 10px;
+  position: relative;
+  background-color: #E3E7FB;
+  padding: 7px;
+}
+#form-input {
+  max-width: 1300px;
+  margin: auto;
+}
+.col-form-right .box .box-content {
+  background-color: #f9fafb;
+}
+/*# sourceMappingURL=content.css.map */

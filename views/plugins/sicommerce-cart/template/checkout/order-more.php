@@ -1,0 +1,1 @@
+<?php do_action('checkout_more');?>

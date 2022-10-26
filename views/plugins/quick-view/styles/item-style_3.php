@@ -1,0 +1,1 @@
+<?php Template::img(Url::base().Path::plugin(QV_NAME).'/assets/images/style_3.png');?>

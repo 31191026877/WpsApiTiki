@@ -1,0 +1,72 @@
+#admin_product_metabox_attribute {
+	padding:0;
+	background-color: #FAFAFA;
+	.select2-container {
+		width: 100% !important;
+	}
+	.collapse {
+		background-color:#FDFDFD;
+	}
+	.product_options {
+		padding:0;
+	}
+	.tab-content {
+		padding:0;
+		background-color: #fff;
+	}
+	.attributes-form {
+		display: flex;
+	}
+	.attributes-group {
+		padding:10px;
+		.attributes-item {
+			display: flex; gap:10px; width: 100%; align-items: center;
+			.attributes-item-name {
+				color:#000; font-weight: bold; font-size: 16px;
+				width: 100px; flex: 0 0 auto;
+			}
+			.attributes-item-option {
+				width: 70%; flex: 0 0 auto;
+			}
+		}
+	}
+	.variations-item {
+		.variations-item-heading {
+			padding:10px; background-color: #e8f3ff;
+			display: flex; align-items: center; gap:10px;
+			cursor: pointer;
+			margin-bottom: 1px;
+			.btn {
+				margin-left: auto;
+			}
+		}
+		.variations-item-content {
+			display: none;
+		}
+		&.open {
+			.variations-item-content {
+				display: block;
+			}
+		}
+	}
+	#add-group-attributes, #add-group-variations {
+		padding: 0 10px 10px 10px ;
+	}
+}
+.js_column {
+	.quick-edit {
+		opacity: 0; color:var(--theme-color); cursor: pointer;
+	}
+	.quick-edit-box:hover .quick-edit {
+		opacity: 1;
+	}
+}
+
+table {
+	.column-options {
+		width: 200px;
+	}
+	.d-hidden {
+		display: none;
+	}
+}

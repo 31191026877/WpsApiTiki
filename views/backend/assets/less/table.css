@@ -1,0 +1,95 @@
+table.table {
+  margin: 0;
+  border: 0 solid #ccc;
+  text-align: left;
+}
+table.table > thead {
+  border-top: 0 solid #ccc;
+}
+table.table > thead > tr > th {
+  vertical-align: middle;
+  color: #575962;
+  background-color: #fcfcfc;
+  text-transform: uppercase;
+  font-size: 11px !important;
+  font-weight: 500;
+  border-bottom: 0 solid #ddd;
+}
+table.table tr {
+  border: 0;
+}
+table.table tr:nth-child(odd) > td {
+  background-color: #fff;
+}
+table.table tr:first-child td.field_order_number {
+  border-top: 0 solid #fff;
+}
+table.table tr td {
+  vertical-align: middle;
+  border: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+table.table tr td img {
+  max-width: 80px;
+}
+table.table tr td.field_order_number {
+  color: #000;
+}
+table.table tr td.field_order_number span {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  line-height: 20px;
+  font-weight: 700;
+  background-color: #fff;
+}
+table.table tr td.column-image {
+  width: 50px;
+}
+table.table tr td.column-image img {
+  width: 50px;
+}
+table.table tr td.column-action {
+  width: 110px;
+}
+table.table tr.new td {
+  background-color: #e1f1ea;
+}
+table.table tr .action-hide {
+  opacity: 0;
+  color: #ccc;
+}
+table.table tr .action-hide a {
+  padding: 0 10px;
+}
+table.table tr .action-hide span {
+  font-size: 11px;
+}
+table.table tr:hover td {
+  background-color: #eeeff0;
+}
+table.table tr:hover .action-hide {
+  opacity: 1;
+}
+.media-table h3 {
+  font-size: 13px;
+  color: #000;
+  margin: 0;
+}
+.field-meta.active {
+  background-color: #3ba3cf;
+}
+.field-meta.active table {
+  color: #fff;
+}
+.field-form .table-left tr td {
+  text-align: left;
+}
+.field-form tr td.field_order_number {
+  width: 2.7% !important;
+}
+/*# sourceMappingURL=table.css.map */

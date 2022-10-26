@@ -1,0 +1,70 @@
+a:3:{s:4:"time";i:1666666818;s:3:"ttl";i:600;s:4:"data";s:6163:"<div class="js_widget_builder js_widget_about_style_9_24 widget_about_style_9" style="padding-top:30px;padding-bottom:30px;" data-id="24" data-key="widget_about_style_9"><div class="container">        <div class="row">
+            <div class="order-1 col-md-7 about-content">
+                <div class="header-title"><p class="header">How We Can Help You Achieve Your Business Goal</p></div>                <div class="description"><p>Integer pretium molestie nisl, non blandit lectus suscipit in. Vivamus tellus diam, iaculis eget nulla sit amet, tincidunt consectetur sem. Suspendisse laoreet, quam sed faucibus feugiat, tortor velit suscipit orci, sed consectetur ante eros id urna. Mauris luctus nulla ut pharetra tempor.</p>
+<p>Mauris egestas eleifend sapien eu malesuada. Phasellus at metus eget sapien tristique accumsan non sit amet augue.</p></div>
+                <div class="counter-section-container row-flex" id="js_counter_section_24" data-id="24" style="">
+                                            <div class="counter-item">
+                            <span class="counter" data-number="3000"></span>
+                            <span class="counter-char">+</span>
+                            <p class="counter-heading">Khách hàng</p>
+                        </div>
+                                            <div class="counter-item">
+                            <span class="counter" data-number="6000"></span>
+                            <span class="counter-char">+</span>
+                            <p class="counter-heading">Sản phẩm</p>
+                        </div>
+                                            <div class="counter-item">
+                            <span class="counter" data-number="30"></span>
+                            <span class="counter-char">năm</span>
+                            <p class="counter-heading">Kinh nghiệm</p>
+                        </div>
+                                    </div>
+            </div>
+            <div class="order-2 col-md-5 about-image">
+                <div class="item-list" style="">
+                                        <div class="item item0 active">
+                        <div class="item-heading">
+                            <div class="image"><img src="http://ktoan.sikidodemo.com/hdtest/views/theme-store/assets/images/preloader.gif" alt="Nulla dict posuere veliitae Integer pretium molestie nisl" title="Nulla dict posuere veliitae Integer pretium molestie nisl"  data-src="http://cdn.sikido.vn/images/widgets/icons-1.png"  loading="lazy" /></div>
+                            <div class="heading">Nulla dict posuere veliitae Integer pretium molestie nisl</div>
+                        </div>
+                        <div class="item-content">Suspendisse ullamcorper mollis orci in facilisis. Integer pretium molestie nisl, non blandit lectus suscipit in. Vivamus tellus diam, iaculis eget nulla sit amet, tincidunt consectetur sem.</div>
+                    </div>
+                                        <div class="item item1 ">
+                        <div class="item-heading">
+                            <div class="image"><img src="http://ktoan.sikidodemo.com/hdtest/views/theme-store/assets/images/preloader.gif" alt="Nulla dict posuere veliitae." title="Nulla dict posuere veliitae."  data-src="http://cdn.sikido.vn/images/widgets/icons-2.png"  loading="lazy" /></div>
+                            <div class="heading">Nulla dict posuere veliitae.</div>
+                        </div>
+                        <div class="item-content">Etiam orci magna, accumsan varius enim volutpat. Integer pretium molestie nisl, non blandit lectus suscipit in. Vivamus tellus diam, iaculis eget nulla sit amet, tincidunt consectetur sem.</div>
+                    </div>
+                                        <div class="item item2 ">
+                        <div class="item-heading">
+                            <div class="image"><img src="http://ktoan.sikidodemo.com/hdtest/views/theme-store/assets/images/preloader.gif" alt="Etiam orci magna, accumsan imperdiet turpis euismod quis" title="Etiam orci magna, accumsan imperdiet turpis euismod quis"  data-src="http://cdn.sikido.vn/images/widgets/icons-3.png"  loading="lazy" /></div>
+                            <div class="heading">Etiam orci magna, accumsan imperdiet turpis euismod quis</div>
+                        </div>
+                        <div class="item-content">Donec fringilla velit risus, in imperdiet turpis euismod quis. Integer pretium molestie nisl, non blandit lectus suscipit in. Vivamus tellus diam, iaculis eget nulla sit amet, tincidunt consectetur sem.</div>
+                    </div>
+                                        <div class="item item3 ">
+                        <div class="item-heading">
+                            <div class="image"><img src="http://ktoan.sikidodemo.com/hdtest/views/theme-store/assets/images/preloader.gif" alt="Aliquam diam tempor non blandit lectus suscipit in" title="Aliquam diam tempor non blandit lectus suscipit in"  data-src="http://cdn.sikido.vn/images/widgets/icons-4.png"  loading="lazy" /></div>
+                            <div class="heading">Aliquam diam tempor non blandit lectus suscipit in</div>
+                        </div>
+                        <div class="item-content">Aliquam pulvinar diam tempor erat pellentesque Integer pretium molestie nisl, non blandit lectus suscipit in. Vivamus tellus diam, iaculis eget nulla sit amet, tincidunt consectetur sem.</div>
+                    </div>
+                                    </div>
+            </div>
+        </div>
+        <style>
+            .js_widget_about_style_9_24 {
+                --about9-item-heading-bg:#fff;
+                --about9-item-heading-color:#000;
+
+                --about9-item-heading-active-bg:#000;
+                --about9-item-heading-active-color:#fff;
+
+                --about9-item-des-color:#8a8b8c;
+
+                --about9-counter-heading-color:black;
+                --about9-counter-num-color:#8a8b8c;
+            }
+        </style>
+        </div></div>";}

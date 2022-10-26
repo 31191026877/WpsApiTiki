@@ -1,0 +1,63 @@
+.nav-tabs {
+    border: 0 solid #3498db;
+    > li {
+        margin-bottom: 0;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        border-radius: 0;
+        > a {
+            -webkit-border-radius: 0;
+            -moz-border-radius: 0;
+            border-radius: 0;
+            color: #6c798f;
+            border-color: transparent;
+            padding: 10px;
+            border-bottom: 2px solid transparent !important;
+            font-weight: 700;
+            &:hover {
+                background-color: transparent;
+                border-color: transparent;
+                color: #214171;
+            }
+            &.active, &:focus, &:hover {
+                border-color: transparent;
+                border-bottom: 2px solid #214171!important;
+                color: #214171;
+                font-weight: 700!important;
+            }
+        }
+    }
+}
+.ui-layout {
+    .ui-title-bar__group {
+        .ui-title-bar__action {
+            margin-left: 0px; border-radius: 5px;
+            a.btn, button.btn {
+                margin: 10px 10px 0 0;
+                color: #637381;
+                font-weight: 400;
+                background-color: #e3e7fb;
+                border-radius: 3px;
+            }
+            .active {
+                box-shadow: none;
+                font-weight: 400;
+                background-color: var(--theme-color)!important;
+                color:#fff!important;
+                border: 0;
+                a {
+                    color:#fff!important;background-color: var(--theme-color)!important;
+                }
+            }
+        }
+    }
+    .tab-content {
+        .section-list ul li a {
+            display: block;
+            margin-right: 10px;
+            position: relative;
+            background-color: #E3E7FB;
+            padding: 7px;
+        }
+    }
+}

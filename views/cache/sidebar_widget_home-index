@@ -1,0 +1,375 @@
+a:3:{s:4:"time";i:1666666816;s:3:"ttl";i:600;s:4:"data";s:24197:"<div class="js_widget_builder js_widget_product_style_1_21 widget_product_style_1 widget_product product-slider-horizontal" style="" data-id="21" data-key="widget_product_style_1"><div class="container"><div class="header-title"><p class="header">Sản phẩm (style 1)</p></div>        <div id="product_style_1_content_21" class="js_product_style_1_data" data-run="false" data-id="21" data-category="0" data-options="{&quot;widgetBackground&quot;:{&quot;color&quot;:&quot;&quot;,&quot;gradientUse&quot;:&quot;0&quot;,&quot;gradientColor1&quot;:&quot;#2b87da&quot;,&quot;gradientColor2&quot;:&quot;#29c4a9&quot;,&quot;gradientType&quot;:&quot;linear&quot;,&quot;gradientRadialDirection1&quot;:&quot;center&quot;,&quot;gradientRadialDirection2&quot;:&quot;180&quot;,&quot;gradientPositionStart&quot;:&quot;0&quot;,&quot;gradientPositionEnd&quot;:&quot;100&quot;,&quot;image&quot;:&quot;&quot;,&quot;imageSize&quot;:&quot;cover&quot;,&quot;imagePosition&quot;:&quot;center center&quot;,&quot;imageRepeat&quot;:&quot;no-repeat&quot;},&quot;pr_cate_id&quot;:&quot;0&quot;,&quot;status&quot;:&quot;0&quot;,&quot;display&quot;:{&quot;type&quot;:&quot;0&quot;,&quot;time&quot;:&quot;3&quot;,&quot;rows&quot;:&quot;1&quot;},&quot;limit&quot;:&quot;10&quot;,&quot;numberShow&quot;:&quot;4&quot;,&quot;numberShowTablet&quot;:&quot;3&quot;,&quot;numberShowMobile&quot;:&quot;2&quot;,&quot;box&quot;:&quot;container&quot;,&quot;box_size&quot;:{&quot;margin&quot;:{&quot;top&quot;:&quot;0&quot;,&quot;left&quot;:&quot;0&quot;,&quot;right&quot;:&quot;0&quot;,&quot;bottom&quot;:&quot;0&quot;},&quot;padding&quot;:{&quot;top&quot;:&quot;0&quot;,&quot;left&quot;:&quot;0&quot;,&quot;right&quot;:&quot;0&quot;,&quot;bottom&quot;:&quot;0&quot;}},&quot;heading&quot;:{&quot;style&quot;:&quot;none&quot;}}">
+            <div class="box-content">
+                        <div class="wg-loading text-center">
+            <div class="row">
+                <div class="col-xs-6 col-sm-4 col-md-15">        <div class="product--item-load">
+            <div class="picture"></div>
+            <div class="row">
+                <div class="col-xs-6 col-sm-6 col-md-6 big"></div>
+                <div class="col-xs-4 col-sm-4 col-md-4 empty big"></div>
+                <div class="col-xs-2 col-sm-2 col-md-2 big"></div>
+                <div class="col-xs-4 col-sm-4 col-md-4"></div>
+                <div class="col-xs-8 col-sm-8 col-md-8 empty"></div>
+                <div class="col-xs-6 col-sm-6 col-md-6"></div>
+                <div class="col-xs-6 col-sm-6 col-md-6 empty"></div>
+                <div class="col-xs-12 col-sm-12 col-md-12"></div>
+            </div>
+        </div>
+        </div>
+                <div class="col-xs-6 col-sm-4 col-md-15">        <div class="product--item-load">
+            <div class="picture"></div>
+            <div class="row">
+                <div class="col-xs-6 col-sm-6 col-md-6 big"></div>
+                <div class="col-xs-4 col-sm-4 col-md-4 empty big"></div>
+                <div class="col-xs-2 col-sm-2 col-md-2 big"></div>
+                <div class="col-xs-4 col-sm-4 col-md-4"></div>
+                <div class="col-xs-8 col-sm-8 col-md-8 empty"></div>
+                <div class="col-xs-6 col-sm-6 col-md-6"></div>
+                <div class="col-xs-6 col-sm-6 col-md-6 empty"></div>
+                <div class="col-xs-12 col-sm-12 col-md-12"></div>
+            </div>
+        </div>
+        </div>
+                <div class="col-xs-6 col-sm-4 col-md-15 product--item-load-desktop">        <div class="product--item-load">
+            <div class="picture"></div>
+            <div class="row">
+                <div class="col-xs-6 col-sm-6 col-md-6 big"></div>
+                <div class="col-xs-4 col-sm-4 col-md-4 empty big"></div>
+                <div class="col-xs-2 col-sm-2 col-md-2 big"></div>
+                <div class="col-xs-4 col-sm-4 col-md-4"></div>
+                <div class="col-xs-8 col-sm-8 col-md-8 empty"></div>
+                <div class="col-xs-6 col-sm-6 col-md-6"></div>
+                <div class="col-xs-6 col-sm-6 col-md-6 empty"></div>
+                <div class="col-xs-12 col-sm-12 col-md-12"></div>
+            </div>
+        </div>
+        </div>
+                <div class="col-xs-6 col-sm-4 col-md-15 product--item-load-tablet">        <div class="product--item-load">
+            <div class="picture"></div>
+            <div class="row">
+                <div class="col-xs-6 col-sm-6 col-md-6 big"></div>
+                <div class="col-xs-4 col-sm-4 col-md-4 empty big"></div>
+                <div class="col-xs-2 col-sm-2 col-md-2 big"></div>
+                <div class="col-xs-4 col-sm-4 col-md-4"></div>
+                <div class="col-xs-8 col-sm-8 col-md-8 empty"></div>
+                <div class="col-xs-6 col-sm-6 col-md-6"></div>
+                <div class="col-xs-6 col-sm-6 col-md-6 empty"></div>
+                <div class="col-xs-12 col-sm-12 col-md-12"></div>
+            </div>
+        </div>
+        </div>
+                <div class="col-xs-6 col-sm-4 col-md-15 product--item-load-tablet">        <div class="product--item-load">
+            <div class="picture"></div>
+            <div class="row">
+                <div class="col-xs-6 col-sm-6 col-md-6 big"></div>
+                <div class="col-xs-4 col-sm-4 col-md-4 empty big"></div>
+                <div class="col-xs-2 col-sm-2 col-md-2 big"></div>
+                <div class="col-xs-4 col-sm-4 col-md-4"></div>
+                <div class="col-xs-8 col-sm-8 col-md-8 empty"></div>
+                <div class="col-xs-6 col-sm-6 col-md-6"></div>
+                <div class="col-xs-6 col-sm-6 col-md-6 empty"></div>
+                <div class="col-xs-12 col-sm-12 col-md-12"></div>
+            </div>
+        </div>
+        </div>
+            </div>
+        </div>
+                                            <div class="arrow_box">
+                        <div class="prev arrow"><i class="fal fa-chevron-left"></i></div>
+                        <div class="next arrow"><i class="fal fa-chevron-right"></i></div>
+                    </div>
+                    <div class="swiper"><div class="swiper-wrapper list-product"></div></div>
+                                            </div>
+        </div>
+        <style>
+            .swiper { width: 100%; height: 100%; }
+        </style>
+        </div></div><div class="js_widget_builder js_wiget_content_timeline_10 wiget_content_timeline" style="background-image:url('http://ktoan.sikidodemo.com/hdtest/uploads/source/done-delete/mask-group.png');background-size:cover;background-repeat: no-repeat; background-position: center center;background-blend-mode: color-burn;padding-top:110px;" data-id="10" data-key="wiget_content_timeline"><div class="container"><div class="header-title"><p class="header">CÂU CHUYỆN HÌNH THÀNH PHÁT TRIỂN</p></div>
+
+        <div class="row box-content">
+            <div class="col-md-6 col-sm-12 text-right">
+                <img src="uploads/source//done-delete/bannerleft.png" alt="" title=""  loading="lazy" />            </div>
+            <div class="col-md-6 col-sm-12 contentDesc">
+                <p><strong>Lorem Ipsum</strong>&nbsp;is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker includi</p>            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="contentTimeLine" style="display:inline-block;width:100%;overflow-y:auto;">
+                    <ul class="timeline timeline-horizontal">
+                                                    <li class="timeline-item">
+                                <div class="timeline-badge primary">6000 TCN</div>
+                                <div class="timeline-panel aos-init aos-animate" data-aos-delay="0" data-aos="fade" data-aos-duration="2000">
+                                    <div class="timeline-body">
+                                        <p>Rượu vang ra đời ở Georgia. Kể từ khi xuất hiện đầu tiên trong lịch sử, rượu vang đã đóng một vai trò quan trọng trong tôn giáo</p>
+                                    </div>
+                                </div>
+                            </li>
+                                                    <li class="timeline-item">
+                                <div class="timeline-badge primary">3100 TCN</div>
+                                <div class="timeline-panel aos-init aos-animate" data-aos-delay="0" data-aos="fade" data-aos-duration="2000">
+                                    <div class="timeline-body">
+                                        <p>Đã dùng những giống nho đỏ chế ra hỗn hợp màu đỏ thẫm để dùng trong cúng tế. Rượu vang cũng trở nên phổ biến hơn</p>
+                                    </div>
+                                </div>
+                            </li>
+                                                    <li class="timeline-item">
+                                <div class="timeline-badge primary">800 TCN</div>
+                                <div class="timeline-panel aos-init aos-animate" data-aos-delay="0" data-aos="fade" data-aos-duration="2000">
+                                    <div class="timeline-body">
+                                        <p>Rượu vang thời đó đã dần trở thành biểu tượng của thương mại, tín ngưỡng và sức khỏe</p>
+                                    </div>
+                                </div>
+                            </li>
+                                                    <li class="timeline-item">
+                                <div class="timeline-badge primary">1855</div>
+                                <div class="timeline-panel aos-init aos-animate" data-aos-delay="0" data-aos="fade" data-aos-duration="2000">
+                                    <div class="timeline-body">
+                                        <p>Hoàng đế Napoléon III đã yêu cầu xây dựng một hệ thống phân loại để xác định các loại rượu ngon nhất của Bordeaux.</p>
+                                    </div>
+                                </div>
+                            </li>
+                                                    <li class="timeline-item">
+                                <div class="timeline-badge primary">1947</div>
+                                <div class="timeline-panel aos-init aos-animate" data-aos-delay="0" data-aos="fade" data-aos-duration="2000">
+                                    <div class="timeline-body">
+                                        <p>Chính thức kiểm soát rượu AOC - Appellation d'Origine Contrôlée</p>
+                                    </div>
+                                </div>
+                            </li>
+                                            </ul>
+                </div>
+            </div>
+        </div>
+
+        <style>
+            .wiget_content_timeline .timeline .timeline-item .timeline-badge.primary {
+                background-image: url(uploads/source/done-delete/bg-item.png);
+                color: #B0976D;
+            }
+        </style>
+    </div></div><pre>5</pre><div class="js_widget_builder js_widget_slider_25 widget_slider" style="" id="" data-id="25" data-key="widget_slider">        <div id="sliderNoTitle_25" class="sliderNoTitle stick-dots js_slider_title box-content slider_box" style="position: relative" data-id="25" data-options="{&quot;numberItem&quot;:1,&quot;id&quot;:25,&quot;ratioWidth&quot;:&quot;3&quot;,&quot;ratioHeight&quot;:&quot;1&quot;}">
+            <div class="arrow_box js_slider_title_arrow">
+                <div class="prev arrow"><i class="fal fa-chevron-left"></i></div>
+                <div class="next arrow"><i class="fal fa-chevron-right"></i></div>
+            </div>
+            <div id="js_slider_title_list_25" class="js_slider_title_list slider_list_item owl-carousel">
+                        <div class="item">
+            <a aria-label='slide' href="">
+                <img src="uploads/source//done-delete/sliderpng.png" alt="zzzzzz" title="zzzzzz" style="cursor:pointer"  loading="lazy" />            </a>
+        </div>
+                    </div>
+        </div>
+                <style>
+            .sliderNoTitle .slider_list_item .item img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+            body .sliderNoTitle .arrow {
+                font-size: 30px;
+                background-color:transparent!important;
+                box-shadow: none;
+            }
+            body .sliderNoTitle .arrow i {
+                text-shadow: 0 0 5px #fff;
+            }
+            body .sliderNoTitle .arrow:hover {
+                background-color:transparent!important;
+            }
+            .sliderNoTitle .slick-dots {
+                position: absolute;
+                bottom: 25px;
+                list-style: none;
+                display: block;
+                text-align: center;
+                padding: 0;
+                margin: 0;
+                width: 100%;
+            }
+            .sliderNoTitle .slick-dots li {
+                position: relative;
+                display: inline-block;
+                margin: 0 5px;
+                padding: 0;
+                cursor: pointer;
+            }
+            .sliderNoTitle .slick-dots li button {
+                border: 0;
+                display: block;
+                outline: none;
+                line-height: 0px;
+                font-size: 0px;
+                color: transparent;
+                padding: 5px;
+                cursor: pointer;
+                transition: all 0.3s ease;
+            }
+            .sliderNoTitle .slick-dots li button:before {
+                display: none;
+            }
+            .sliderNoTitle .slick-dots li button:hover,
+            .sliderNoTitle .slick-dots li button:focus {
+                outline: none;
+            }
+            .sliderNoTitle .stick-dots .slick-dots li {
+                height: 3px;
+                width: 50px;
+            }
+            .sliderNoTitle .stick-dots .slick-dots li button {
+                position: relative;
+                background-color: white;
+                opacity: 0.25;
+                width: 50px;
+                height: 3px;
+                padding: 0;
+            }
+            .sliderNoTitle .stick-dots .slick-dots li button:hover,
+            .sliderNoTitle .stick-dots .slick-dots li button:focus {
+                opacity: 1;
+            }
+            .sliderNoTitle .stick-dots .slick-dots li.slick-active button {
+                color: white;
+                opacity: 0.75;
+            }
+            .sliderNoTitle .stick-dots .slick-dots li.slick-active button:hover,
+            .sliderNoTitle .stick-dots .slick-dots li.slick-active button:focus {
+                opacity: 1;
+            }
+        </style>
+                <script>
+            $(() => {
+                $.each($('.js_slider_title'), function (index, element) {
+                    let options = $(this).data('options');
+                    let sliderId = $(this).data('id');
+                    let sliderWidth = $(this).width();
+                    let sliderHeight = Math.ceil(sliderWidth*(parseFloat(options.ratioHeight)/parseFloat(options.ratioWidth)));
+
+                    $(this).find('.js_slider_title_list .item').css('height', sliderHeight+'px');
+
+                    $(window).resize(function () {
+                        sliderWidth = $(this).width();
+                        sliderHeight = Math.ceil(sliderWidth*(parseFloat(options.ratioHeight)/parseFloat(options.ratioWidth)));
+                        $(this).find('.js_slider_title_list .item').css('height', sliderHeight + 'px');
+                    });
+
+                    let sliderMain = $(this).find('.js_slider_title_list');
+                    let arrowNext = $(this).find('.js_slider_title_arrow .next');
+                    let arrowPrev = $(this).find('.js_slider_title_arrow .prev');
+
+                    sliderMain.slick({
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        arrows: false,
+                        fade: true,
+                        autoplay: true,
+                        loop:true,
+                        lazyLoad: 'progressive',
+                        dots: true,
+                    });
+                    arrowNext.click(function() {
+                        sliderMain.slick('slickNext'); return false;
+                    });
+                    arrowPrev.click(function() {
+                        sliderMain.slick('slickPrev'); return false;
+                    });
+                });
+            });
+        </script>
+        </div><div class="js_widget_builder js_widget_product_style_8_26 widget_product_style_8" style="" data-id="26" data-key="widget_product_style_8"><div class="container">        <div class="product_style_8_header js_product_style_8_data" id="product_style_8_header_26" data-run="false" data-tab="tab1-26" data-id="26" data-options="{&quot;widgetBackground&quot;:[],&quot;tab1&quot;:{&quot;title&quot;:&quot;S\u1ea3n ph\u1ea9m m\u1edbi&quot;,&quot;status&quot;:0,&quot;public&quot;:1,&quot;pr_cate_id&quot;:0},&quot;tab2&quot;:{&quot;title&quot;:&quot;S\u1ea3n ph\u1ea9m khuy\u1ebfn m\u00e3i&quot;,&quot;status&quot;:4,&quot;public&quot;:1,&quot;pr_cate_id&quot;:0},&quot;tab3&quot;:{&quot;title&quot;:&quot;S\u1ea3n ph\u1ea9m n\u1ed5i b\u1eadt&quot;,&quot;status&quot;:3,&quot;public&quot;:1,&quot;pr_cate_id&quot;:0},&quot;display&quot;:{&quot;type&quot;:0,&quot;time&quot;:3,&quot;speed&quot;:1,&quot;rows&quot;:1},&quot;limit&quot;:10,&quot;numberShow&quot;:4,&quot;numberShowTablet&quot;:3,&quot;numberShowMobile&quot;:2,&quot;box&quot;:&quot;container&quot;}">
+            <div class="header-title"><p class="header">Sản phẩm (style 8)</p></div>            <div class="text-center">
+                <ul class="product_style_8_category_list">
+                                            <li class="item"><a href="san-pham" data-tab="tab1-26" class="active">Sản phẩm mới</a></li>
+                                            <li class="item"><a href="san-pham" data-tab="tab2-26" class="">Sản phẩm khuyến mãi</a></li>
+                                            <li class="item"><a href="san-pham" data-tab="tab3-26" class="">Sản phẩm nổi bật</a></li>
+                                    </ul>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="product_style_8_content">
+            <div class="box-content product-slider-horizontal" id="product_style_8_content_26" style="position: relative">
+                        <div class="wg-loading text-center">
+            <div class="row">
+                <div class="col-xs-6 col-sm-4 col-md-15">        <div class="product--item-load">
+            <div class="picture"></div>
+            <div class="row">
+                <div class="col-xs-6 col-sm-6 col-md-6 big"></div>
+                <div class="col-xs-4 col-sm-4 col-md-4 empty big"></div>
+                <div class="col-xs-2 col-sm-2 col-md-2 big"></div>
+                <div class="col-xs-4 col-sm-4 col-md-4"></div>
+                <div class="col-xs-8 col-sm-8 col-md-8 empty"></div>
+                <div class="col-xs-6 col-sm-6 col-md-6"></div>
+                <div class="col-xs-6 col-sm-6 col-md-6 empty"></div>
+                <div class="col-xs-12 col-sm-12 col-md-12"></div>
+            </div>
+        </div>
+        </div>
+                <div class="col-xs-6 col-sm-4 col-md-15">        <div class="product--item-load">
+            <div class="picture"></div>
+            <div class="row">
+                <div class="col-xs-6 col-sm-6 col-md-6 big"></div>
+                <div class="col-xs-4 col-sm-4 col-md-4 empty big"></div>
+                <div class="col-xs-2 col-sm-2 col-md-2 big"></div>
+                <div class="col-xs-4 col-sm-4 col-md-4"></div>
+                <div class="col-xs-8 col-sm-8 col-md-8 empty"></div>
+                <div class="col-xs-6 col-sm-6 col-md-6"></div>
+                <div class="col-xs-6 col-sm-6 col-md-6 empty"></div>
+                <div class="col-xs-12 col-sm-12 col-md-12"></div>
+            </div>
+        </div>
+        </div>
+                <div class="col-xs-6 col-sm-4 col-md-15 product--item-load-desktop">        <div class="product--item-load">
+            <div class="picture"></div>
+            <div class="row">
+                <div class="col-xs-6 col-sm-6 col-md-6 big"></div>
+                <div class="col-xs-4 col-sm-4 col-md-4 empty big"></div>
+                <div class="col-xs-2 col-sm-2 col-md-2 big"></div>
+                <div class="col-xs-4 col-sm-4 col-md-4"></div>
+                <div class="col-xs-8 col-sm-8 col-md-8 empty"></div>
+                <div class="col-xs-6 col-sm-6 col-md-6"></div>
+                <div class="col-xs-6 col-sm-6 col-md-6 empty"></div>
+                <div class="col-xs-12 col-sm-12 col-md-12"></div>
+            </div>
+        </div>
+        </div>
+                <div class="col-xs-6 col-sm-4 col-md-15 product--item-load-tablet">        <div class="product--item-load">
+            <div class="picture"></div>
+            <div class="row">
+                <div class="col-xs-6 col-sm-6 col-md-6 big"></div>
+                <div class="col-xs-4 col-sm-4 col-md-4 empty big"></div>
+                <div class="col-xs-2 col-sm-2 col-md-2 big"></div>
+                <div class="col-xs-4 col-sm-4 col-md-4"></div>
+                <div class="col-xs-8 col-sm-8 col-md-8 empty"></div>
+                <div class="col-xs-6 col-sm-6 col-md-6"></div>
+                <div class="col-xs-6 col-sm-6 col-md-6 empty"></div>
+                <div class="col-xs-12 col-sm-12 col-md-12"></div>
+            </div>
+        </div>
+        </div>
+                <div class="col-xs-6 col-sm-4 col-md-15 product--item-load-tablet">        <div class="product--item-load">
+            <div class="picture"></div>
+            <div class="row">
+                <div class="col-xs-6 col-sm-6 col-md-6 big"></div>
+                <div class="col-xs-4 col-sm-4 col-md-4 empty big"></div>
+                <div class="col-xs-2 col-sm-2 col-md-2 big"></div>
+                <div class="col-xs-4 col-sm-4 col-md-4"></div>
+                <div class="col-xs-8 col-sm-8 col-md-8 empty"></div>
+                <div class="col-xs-6 col-sm-6 col-md-6"></div>
+                <div class="col-xs-6 col-sm-6 col-md-6 empty"></div>
+                <div class="col-xs-12 col-sm-12 col-md-12"></div>
+            </div>
+        </div>
+        </div>
+            </div>
+        </div>
+                                            <div class="arrow_box">
+                        <div class="prev arrow"><i class="fal fa-chevron-left"></i></div>
+                        <div class="next arrow"><i class="fal fa-chevron-right"></i></div>
+                    </div>
+                    <div class="swiper list-product-box"><div class="swiper-wrapper list-product"></div></div>
+                                    <div class="text-center" id="product_style_8_morelink_26">
+                    <a href="san-pham" class="btn btn-theme btn-effect-default more-link">Xem tất cả</a>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+        </div></div>";}

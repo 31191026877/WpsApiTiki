@@ -1,0 +1,213 @@
+/*
+Hiệu ứng chạy loading cho widget products, post
+ */
+@-webkit-keyframes iSuresPlaceholder {
+    0% {
+        transform: translate3d(-30%, 0, 0)
+    }
+    to {
+        transform: translate3d(30%, 0, 0)
+    }
+}
+@keyframes iSuresPlaceholder {
+    0% {
+        transform: translate3d(-30%, 0, 0)
+    }
+    to {
+        transform: translate3d(30%, 0, 0)
+    }
+}
+
+/*
+Hiệu ứng hover vào icon, hình ảnh chạy 1 vòng từ trên xuống dưới
+ */
+@-webkit-keyframes toTopFromBottom {
+    49% {
+        -webkit-transform: translateY(-100%)
+    }
+    50% {
+        opacity: 0;
+        -webkit-transform: translateY(100%)
+    }
+    51% {
+        opacity: 1
+    }
+}
+@keyframes toTopFromBottom {
+    49% {
+        -webkit-transform: translateY(-100%);
+        transform: translateY(-100%)
+    }
+    50% {
+        opacity: 0;
+        -webkit-transform: translateY(100%);
+        transform: translateY(100%)
+    }
+    51% {
+        opacity: 1
+    }
+}
+
+/*
+Hiệu ứng chuyển động nhẹ nhàng style 1
+ */
+@-webkit-keyframes move1 {
+    0% {
+        -webkit-transform: rotate(-1deg) translate(-2px, -2px);
+        transform: rotate(-1deg) translate(-2px, -2px)
+    }
+    50% {
+        -webkit-transform: rotate(1deg) translate(2px, 2px);
+        transform: rotate(1deg) translate(2px, 2px)
+    }
+    to {
+        -webkit-transform: rotate(-1deg) translate(-2px, -2px);
+        transform: rotate(-1deg) translate(-2px, -2px)
+    }
+}
+@keyframes move1 {
+    0% {
+        -webkit-transform: rotate(-1deg) translate(-2px, -2px);
+        transform: rotate(-1deg) translate(-2px, -2px)
+    }
+    50% {
+        -webkit-transform: rotate(1deg) translate(2px, 2px);
+        transform: rotate(1deg) translate(2px, 2px)
+    }
+    to {
+        -webkit-transform: rotate(-1deg) translate(-2px, -2px);
+        transform: rotate(-1deg) translate(-2px, -2px)
+    }
+}
+
+/*
+Hiệu ứng chuyển động nhẹ nhàng style 2
+ */
+@-webkit-keyframes move2 {
+    0% {
+        -webkit-transform: rotate(1deg) translate(2px, 2px);
+        transform: rotate(1deg) translate(2px, 2px)
+    }
+    50% {
+        -webkit-transform: rotate(-1deg) translate(-2px, -2px);
+        transform: rotate(-1deg) translate(-2px, -2px)
+    }
+    to {
+        -webkit-transform: rotate(1deg) translate(2px, 2px);
+        transform: rotate(1deg) translate(2px, 2px)
+    }
+}
+@keyframes move2 {
+    0% {
+        -webkit-transform: rotate(1deg) translate(2px, 2px);
+        transform: rotate(1deg) translate(2px, 2px)
+    }
+    50% {
+        -webkit-transform: rotate(-1deg) translate(-2px, -2px);
+        transform: rotate(-1deg) translate(-2px, -2px)
+    }
+    to {
+        -webkit-transform: rotate(1deg) translate(2px, 2px);
+        transform: rotate(1deg) translate(2px, 2px)
+    }
+}
+
+/*
+Hiệu ứng chuyển động nhẹ nhàng style 3
+ */
+@-webkit-keyframes move3 {
+    0% {
+        -webkit-transform: translate(0);
+        transform: translate(0)
+    }
+    20% {
+        -webkit-transform: translate(5px);
+        transform: translate(5px)
+    }
+    40% {
+        -webkit-transform: translate(5px, 5px);
+        transform: translate(5px, 5px)
+    }
+    65% {
+        -webkit-transform: translateY(5px);
+        transform: translateY(5px)
+    }
+    65% {
+        -webkit-transform: translate(5px);
+        transform: translate(5px)
+    }
+    to {
+        -webkit-transform: translate(0);
+        transform: translate(0)
+    }
+}
+@keyframes move3 {
+    0% {
+        -webkit-transform: translate(0);
+        transform: translate(0)
+    }
+    20% {
+        -webkit-transform: translate(5px);
+        transform: translate(5px)
+    }
+    40% {
+        -webkit-transform: translate(5px, 5px);
+        transform: translate(5px, 5px)
+    }
+    65% {
+        -webkit-transform: translateY(5px);
+        transform: translateY(5px)
+    }
+    65% {
+        -webkit-transform: translate(5px);
+        transform: translate(5px)
+    }
+    to {
+        -webkit-transform: translate(0);
+        transform: translate(0)
+    }
+}
+
+/*
+Hiệu ứng chuyển động nhẹ nhàng style 4
+ */
+@-webkit-keyframes move4 {
+    0% {
+        -webkit-transform: translateY(-5px);
+        transform: translateY(-5px)
+    }
+    50% {
+        -webkit-transform: translateY(5px);
+        transform: translateY(5px)
+    }
+    to {
+        -webkit-transform: translateY(-5px);
+        transform: translateY(-5px)
+    }
+}
+@keyframes move4 {
+    0% {
+        -webkit-transform: translateY(-5px);
+        transform: translateY(-5px)
+    }
+    50% {
+        -webkit-transform: translateY(5px);
+        transform: translateY(5px)
+    }
+    to {
+        -webkit-transform: translateY(-5px);
+        transform: translateY(-5px)
+    }
+}
+
+/*
+Hiệu ứng gợn sóng cho nút video
+ */
+@-webkit-keyframes ripple {
+    70% {box-shadow: 0 0 0 70px rgba(255, 255, 255, 0);}
+    100% {box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);}
+}
+@keyframes ripple {
+    70% {box-shadow: 0 0 0 70px rgba(255, 255, 255, 0);}
+    100% {box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);}
+}

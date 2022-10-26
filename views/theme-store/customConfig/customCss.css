@@ -1,0 +1,157 @@
+.header-mobile {
+    padding: 15px 0px;
+}
+
+
+/* Product img detail hình vuông */
+
+.products-detail .box-image-featured {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding-top: 100%;
+    height: inherit;
+    border-radius: 0px;
+    overflow: hidden;
+}
+
+.products-detail .box-image-featured a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.products-detail .box-image-featured a img {
+    min-height: 100%;
+    min-width: 100%;
+    position: relative;
+    display: inherit;
+    transition: all .5s ease-in-out;
+    object-fit: cover;
+    -webkit-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    transform: scale(1.03);
+    -webkit-transition: -webkit-transform .5s ease-out;
+    transition: -webkit-transform .5s ease-out;
+    -o-transition: transform .5s ease-out;
+    transition: transform .5s ease-out;
+    transition: transform .5s ease-out, -webkit-transform .5s ease-out;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/* Custom header products detail */
+
+.products-detail .sidebar .widget .sidebar-title {
+    padding: 0;
+    background-color: var(--theme-color);
+    border-radius: 16px 16px 0 0;
+}
+
+.sidebar .widget .sidebar-title {
+    background-color: var(--theme-color);
+    padding: 5px 5px 0px 5px;
+    border-radius: 16px 16px 0px 0px;
+}
+
+.products-detail .onlineSupport .chatNow {
+    background-color: #F30000;
+    border: 1px solid #F30000;
+    border-radius: 0px 0px 16px 16px;
+    color: #fff;
+}
+
+.products-detail .slick-track {
+    margin-left: unset;
+    margin-right: unset;
+}
+
+.products-detail .products-related {
+    overflow: hidden;
+}
+
+.products-detail .onlineSupport .phoneNumber a {
+    color: red;
+}
+
+.products-detail .policy_intuitive .list-item .pr-item .img {
+    width: 60px;
+    padding: 0;
+}
+
+.products-detail .policy_intuitive .list-item .pr-item .title h4 {
+    color: #000;
+    font-size: 14px;
+}
+
+.sidebar .widget .sidebar-title .header {
+    font-size: 18px!important;
+    font-weight: 700!important;
+    text-align: center;
+    color: #fff;
+}
+
+.sidebar .widget_product .sidebar-title .header {
+    color: #fff;
+}
+
+.sidebar .products-detail-box .sidebar-title .header {
+    color: #fff;
+}
+
+.products-detail .tab-box .nav.nav-tabs>li .nav-link {
+    border-radius: 8px 8px 0px 0px;
+}
+
+.box-category-child .category-item a {
+    color: #000;
+}
+
+.box-category-child .category-item a .titleCate {
+    border: 1px solid var(--theme-color);
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.question-section .question-wrap .collapse p {
+    font-size: 16px;
+}
+
+.header-mobile .flexBoy {
+    display: flex;
+    gap: 5px;
+    justify-content: flex-end;
+}
+
+.header-mobile .btn-cart-top img {
+    max-width: 25px;
+}
+
+.btn-breadcrumb a.btn.btn-default {
+    height: unset;
+}
+/*// Large devices  Phone */
+
+@media (max-width: 767px) {
+    .btn-group,
+    .btn-group-vertical {
+        display: inline-block;
+    }
+    .product-detail-cart .addtocart_button {
+        margin-top: 20px;
+    }
+    .object-detail {
+        margin-top: 0px!important;
+    }
+    .btn-breadcrumb a.btn.btn-default {
+        height: unset;
+    }
+}

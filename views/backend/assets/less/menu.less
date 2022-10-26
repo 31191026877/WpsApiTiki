@@ -1,0 +1,197 @@
+.theme-menu {
+    .sidebar, .content {
+        float: left; min-height: 100vh; border-right: 1px solid #dedede;
+    }
+    .header-bar {
+        background-color:#214171; color:#fff;
+        padding:5px 10px;
+        height: var(--header-height);
+        h2 {
+            font-size: 18px; margin: 0; line-height: 30px;
+        }
+    }
+    .sidebar-menu-list {
+        width:17%;
+        .list-menu {
+            ul {
+                padding:15px 10px;
+                li.group-menu {
+                    a {
+                        padding:15px 10px;
+                        background-color: var(--content-bg);
+                        display: block;
+                        position: relative;
+                        font-size: 14px;
+                        font-weight: bold;
+                        color: #333333;
+                        border-radius: 10px;
+                        overflow: hidden;
+                        opacity: 0.7;
+                        transition: all 0.3s;
+                    }
+                    button {
+                        position: absolute; top:10px; right: -55px;
+                        transition: all 0.3s;
+                    }
+                    &:hover {
+                        a { opacity: 1; }
+                        button { right: 10px; }
+                    }
+                    &.active {
+                        a {
+                            background-color: #61A8EA;
+                            color: #fff;
+                            opacity: 1;
+                            >i {
+                                background-color: #61A8EA;
+                                color: #fff;
+                            }
+                        }
+                    }
+                    &.add {
+                        a {
+                            border: 1px dashed #ccc;
+                            margin-top: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .sidebar-object-list {
+        width:23%;
+        .menu-items { padding:15px 10px; }
+        .panel-group .panel { border: 0; border-radius: 0px 0px 10px 10px; box-shadow: none; }
+        .panel-group .panel+.panel { margin-top: 0;}
+        .panel-default>.panel-heading {
+            color: #333;
+            background-color: var(--content-bg);
+            border:0; padding:0;
+            border-radius: 0;
+        }
+        .panel-default>.panel-heading+.panel-collapse>.panel-body {
+            border: 0; padding:10px; background-color: #fff; border-radius: 0 0 10px 10px;
+        }
+        .panel-title {
+            line-height: 26px;
+            >a {
+                display: block;height: 52px; padding:10px;border-radius: 10px 10px 0 0;
+                &:not(.collapsed) {
+                    background-color: #61A8EA;
+                    color: #fff;
+                }
+            }
+        }
+        .panel-title>a {
+            display: block;height: 52px; padding:10px;border-radius: 10px 10px 0 0;
+        }
+        .panel-title>a:not(.collapsed) {
+            background-color: #61A8EA;
+            color: #fff;
+        }
+    }
+    .sidebar-menu-item-edit { width:25%; }
+    .content {
+        width: 35%; background-color:#fff;
+        .content-menu-items {
+            padding:15px 10px; position: relative;
+            .sort-menu {
+                ol {
+                    padding-left: 20px;
+                    list-style-type: none;
+                    .panel-group {
+                        height: 40px; margin-bottom: 5px; border-radius: 5px; overflow: hidden;
+                        .panel {
+                            border: 0 solid transparent;
+                            -webkit-box-shadow: none;
+                            -moz-box-shadow: none;
+                            box-shadow: none;
+                            -webkit-border-radius: 5px;
+                            -moz-border-radius: 5px;
+                            border-radius: 5px;
+                            .panel-heading {
+                                color: #333;
+                                background-color: #dbdbdb;
+                                border-color: #dbdbdb;
+                                overflow: hidden;
+                                height: 40px; line-height: 40px; padding:0;
+                                h4.panel-title {
+                                    line-height: 40px; padding-left:10px;
+                                }
+                            }
+                        }
+                    }
+                    .panel-action {
+                        height: 40px;
+                        padding:5px;
+                        position: absolute; right: 0; top:0;
+                        .btn {
+                            padding: 5px 10px; font-size: 12px;
+                        }
+                    }
+                }
+                > ol {
+                    padding-left: 0;
+                }
+            }
+        }
+    }
+}
+.dd-item {
+    position: relative;
+}
+.dd3-handle {
+    position: absolute;
+    margin: 0;
+    left: 0;
+    top: 0;
+    cursor: move;
+    width: 100%;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    height: 40px;
+    background-color: transparent;
+}
+.dd-placeholder, .dd-empty { background: #f2fbff; margin-bottom: 10px; }
+.dd-dragel {
+    margin-bottom: 0;
+    position: absolute; pointer-events: none; z-index: 9999;
+    .panel-group {
+        height: 40px; margin-bottom: 5px;
+        .panel {
+            border: 0 solid transparent;
+            -webkit-box-shadow: none;
+            -moz-box-shadow: none;
+            box-shadow: none;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            border-radius: 5px;
+            .panel-heading {
+                color: #333;
+                background-color: #dbdbdb;
+                border-color: #dbdbdb;
+                overflow: hidden;
+                height: 40px; line-height: 40px; padding:0;
+                h4.panel-title {
+                    line-height: 40px; padding-left:10px;
+                }
+            }
+        }
+    }
+    .panel-action {
+        height: 40px;
+        padding:5px;
+        position: absolute; right: 0; top:0;
+        .btn {
+            padding: 5px 10px;
+        }
+    }
+    ol {
+        padding-left: 20px;
+        list-style-type: none;
+    }
+    > ol {
+        padding-left: 0;
+    }
+}

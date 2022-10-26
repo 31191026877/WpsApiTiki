@@ -1,0 +1,1 @@
+a:3:{s:4:"time";i:1664853785;s:3:"ttl";i:2592000;s:4:"data";O:8:"stdClass":10:{s:2:"id";i:17;s:9:"object_id";i:5;s:4:"slug";s:8:"don-hang";s:10:"controller";s:21:"frontend/page/detail/";s:6:"plugin";N;s:7:"created";s:19:"2022-09-06 15:34:28";s:7:"updated";N;s:11:"object_type";s:4:"page";s:11:"directional";s:4:"page";s:8:"callback";s:0:"";}}

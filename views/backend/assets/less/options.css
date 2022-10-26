@@ -1,0 +1,53 @@
+.system h2.header {
+  border-bottom: 1px solid #e5e5e5;
+  margin: 0 0 10px 0;
+}
+.system .tab-content > .tab-pane {
+  padding: 0;
+}
+.system .system-tab {
+  float: left;
+  width: 20%;
+}
+.system .system-tab .nav-tabs {
+  background: #fff;
+  border: 0 solid #e5e5e5;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 0 0 1px rgba(63, 63, 68, 0.05), 0 1px 3px 0 rgba(63, 63, 68, 0.15);
+  box-shadow: 0 0 0 1px rgba(63, 63, 68, 0.05), 0 1px 3px 0 rgba(63, 63, 68, 0.15);
+  overflow: hidden;
+}
+.system .system-tab .nav-tabs > li {
+  float: none;
+  display: block;
+  border: 0 solid #e5e5e5;
+}
+.system .system-tab .nav-tabs > li > a {
+  margin-right: 0;
+  font-size: 15px;
+  font-weight: 400;
+  color: #6c798f;
+}
+.system .system-tab .nav-tabs > li > a i {
+  width: 20px;
+  margin-right: 10px;
+}
+.system .system-tab .nav-tabs > li:first-child a {
+  border-radius: 3px 3px 0 0;
+}
+.system .system-tab .nav-tabs > li.active > a {
+  border-color: transparent;
+  border-bottom: 2px solid transparent;
+  color: #214171;
+  font-weight: 700;
+}
+.system .system-tab .col-md-12 {
+  margin-bottom: 10px;
+  padding-bottom: 0;
+}
+.system .system-tab .system-tab-content {
+  padding: 0 10px;
+  float: left;
+  width: 80%;
+}
+/*# sourceMappingURL=options.css.map */
